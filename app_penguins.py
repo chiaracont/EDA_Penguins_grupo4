@@ -26,7 +26,7 @@ def imagen_a_base64(imagen_pinguinos):
     with open(imagen_pinguinos, "rb") as f:
         return base64.b64encode(f.read()).decode()
 
-img_b64 = imagen_a_base64("../Imagenes/imagen_pinguinos.png")
+img_b64 = imagen_a_base64("Imagenes/imagen_pinguinos.png")
 
 st.markdown(f"""
     <style>
@@ -86,7 +86,7 @@ def set_background(Version_nocturna_del):
     """
     st.markdown(css, unsafe_allow_html=True)
 
-set_background("../Imagenes/Version_nocturna_del.webp")
+set_background("Imagenes/Version_nocturna_del.webp")
 
 #Título debajo de la cabecera
 st.title("Análisis del grupazo 4")
@@ -105,7 +105,7 @@ with st.expander("👥 Integrantes del equipo"):
 df = carga_datos()
 
 #Creacion de la barra lateral
-img_sidebar_b64 = imagen_a_base64("../Imagenes/Pingu_fit.webp")
+img_sidebar_b64 = imagen_a_base64("Imagenes/Pingu_fit.webp")
 
 st.markdown(f"""
     <style>
