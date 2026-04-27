@@ -546,7 +546,7 @@ else:
 # ── INTRODUCCIÓN ───────────────────────────────────────────
 # ══════════════════════════════════════════════════════════════════════════════
 st.title("Iceberg Intelligence")
-render_audio_player("assets/musica_fondo.mp3")
+render_audio_player("assets/olas_y_pinguinos.mp3")
 
 acto_header("Introducción — Equipo y contexto del encargo", "🧊")
 
