@@ -1,0 +1,57 @@
+
+# ─────────────────────────────────────
+# Entorno virtual
+# ─────────────────────────────────────
+.venv/
+venv/
+env/
+.env/
+penguinsvenv/*
+penguin/*
+
+# ─────────────────────────────────────
+# Python: caché y compilados
+# ─────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ─────────────────────────────────────
+# Jupyter Notebooks
+# ─────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+curie.ipynb
+librerias.ipynb
+
+# ─────────────────────────────────────
+# Editores y IDEs
+# ─────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ─────────────────────────────────────
+# Sistema operativo
+# ─────────────────────────────────────
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ─────────────────────────────────────
+# Variables de entorno y secretos
+# ─────────────────────────────────────
+.env
+*.env
+secrets.py
+config_local.py
